@@ -21,7 +21,7 @@ header nav a { color: var(--cream); font-weight: 600; }
 .hero { padding-bottom: 40px; }
 .tagline { font-size: 20px; }
 .screen { margin: 28px auto 0; max-width: 960px; padding: 10px; background: #1b2440; border-radius: 22px; box-shadow: 0 8px 0 rgba(16, 26, 46, .45); }
-.screen img { display: block; width: 100%; border-radius: 12px; }
+.screen img, .screen video { display: block; width: 100%; height: auto; border-radius: 12px; background: #1b2440; }
 .soon { margin-top: 20px; font-weight: 600; font-size: 16px; letter-spacing: .3px; }
 .stores { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 20px 0 0; }
 .store { display: inline-block; min-width: 150px; padding: 11px 20px; border-radius: 14px; background: var(--paper); color: var(--ink); font-weight: 700; text-decoration: none; box-shadow: 0 5px 0 rgba(16, 26, 46, .35); }
@@ -56,5 +56,5 @@ footer nav a { font-weight: 600; }
   header h1 { font-size: 32px; }
   .how, .gallery { grid-template-columns: 1fr; }
   .screen { padding: 6px; border-radius: 16px; }
-  .screen img { border-radius: 10px; }
+  .screen img, .screen video { border-radius: 10px; }
 }
